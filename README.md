@@ -19,7 +19,10 @@ All of the authentication is handled internally via Laravel Passport.
 ## How to scaffold the development environment
 
 There is a bash file in the root ```bash scaffold_application.sh```
-It is run like this: `bash scaffold_application.sh`
+It is run like this: 
+```bash 
+bash scaffold_application.sh
+```
 It executes the following commands:
 ```bash 
    composer install && 
@@ -106,7 +109,7 @@ then just enter commands like: `v up`, `v ssh`, `v reload`, etc ...
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Laravel, please create a ticket at the following link: to Christian via [Github Ticket](https://github.com/redbonzai/laravel-recipe-api/issues). All security vulnerabilities will be promptly addressed.
 
 ## License
 
